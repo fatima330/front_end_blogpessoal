@@ -3,7 +3,7 @@ import './Login.css';
 import { type ChangeEvent, useContext, useEffect, useState } from 'react';
 import type UsuarioLogin from '../../models/UsuarioLogin';
 import { RotatingLines } from 'react-loader-spinner';
-import { AuthContext } from '../../contexts/AuthContexts';
+import { AuthContext } from '../../contexts/AuthContext';
 
 function Login() {
 
