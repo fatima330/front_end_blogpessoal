@@ -7,5 +7,5 @@ titulo: string;
 texto: string;
 data: string;
 tema: Tema | null;
-suario: Usuario | null;
+usuario: Usuario | null;
 }
