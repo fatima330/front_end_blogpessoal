@@ -11,7 +11,7 @@ import FormTema from './components/temas/formtema/FormTema'
 import DeletarTema from './components/temas/deletartema/DeletarTema'
 import ListaPostagens from './components/postagens/listapostagens/ListaPostagens'
 import FormPostagem from './components/postagens/formpostagem/FormPostagem'
-import DeletarPostagem from './components/temas/deletarpostagem/DeletarPostagem'
+import DeletarPostagem from './components/postagens/deletarpostagem/DeletarPostagem'
 
 function App() {
   return (
