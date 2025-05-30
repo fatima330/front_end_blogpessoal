@@ -4,7 +4,7 @@
 import axios from "axios";
 
 const api = axios.create( {//crinado uma instancia da biblioteca axios 
-    baseURL: "https://blogpessoal-b1ok.onrender.com"
+    baseURL: import.meta.env.VITE_API_URL
 })
 
 export const cadastrarUsuario = async ( url: string, dados: Object, setDados: Function ) => { // construiu e exportou a função assincrona chamada resposta
